@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "nanobot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "Alan Otoniel García Hernández",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
