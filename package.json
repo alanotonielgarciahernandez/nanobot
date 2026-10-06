@@ -1,7 +1,6 @@
 {
-  "type": "module",
   "name": "nanobot",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -11,6 +10,8 @@
   "author": "Alan Otoniel García Hernández",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.5.0",
+    "cron": "^2.4.3",
     "discord.js": "^14.13.0"
   },
   "devDependencies": {

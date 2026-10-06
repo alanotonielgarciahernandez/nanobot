@@ -1,4 +1,12 @@
 {
-  "botToken":                 "",
-  "botPrefix":                "nano"
+    "token":                        "",
+    "prefix":                       "nano",
+    "subscriberID":                 "YOUR_DISCORD_USER_ID",
+    "administratorID":              "YOUR_DISCORD_ADMIN_ID",
+    "imagesPath":                   "./assets/img/phone-tasks/",
+
+    "taskResponseTimer":            120000,
+    "deleteClearedMessageTimer":    1000,
+
+    "tenorAPIKey":                  ""
 }

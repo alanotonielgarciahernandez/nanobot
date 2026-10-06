@@ -1,0 +1,182 @@
+[
+    {
+        "task": {
+            "title": "Translate the following expression into Portuguese: 'Good Morning!'",
+            "imageName": "piolin-good-morning1.jpg"
+        },
+        "response": [ "bom dia", "bom dia!" ],
+        "interestingFact": "Pneumoultramicroscopicossilicovulcanoconiótico. It is the longest Portuguese word that refers to the condition of a person suffering from a disease caused by inhaling volcanic ash.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Translate the following expression into Korean: 'Good Morning!'",
+            "imageName": "piolin-good-morning2.jpg"
+        },
+        "response": [ "좋은 아침이에요", "좋은 아침이에요!", "joh-eun achim-ieyo", "joh-eun achim-ieyo!" ],
+        "interestingFact": "In 1985, the surnames Kim, Lee, Park, and Choi already accounted for half of South Korea's population.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the name of the protagonist of Persona 3",
+            "imageName": "makoto-yuki.gif"
+        },
+        "response": [ "makoto yuki", "yuki makoto", "minato arisato", "arisato minato" ],
+        "interestingFact": "The name 'Makoto Yuki' can be interpreted as 'True Courage'.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the name of the protagonist of Persona 4",
+            "imageName": "yu-narukami.gif"
+        },
+        "response": [ "yu narukami", "narukami yu" ],
+        "interestingFact": "The protagonist of Persona 4 has a low tolerance for bad riddles.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the name of the protagonist of Persona 5",
+            "imageName": "ren-amamiya.gif"
+        },
+        "response": [ "ren amamiya", "akira kurusu" ],
+        "interestingFact": "The protagonist of Persona 5 is the only criminal protagonist in the series.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "What's the name of this animal?",
+            "imageName": "pig.jpg"
+        },
+        "response": [ "pig" ],
+        "interestingFact": "Pigs are highly intelligent animals and can learn to recognize their names.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the first line of the lyrics of the following song: 'End Credits' from the Coraline album",
+            "imageName": "coraline-album.jpg"
+        },
+        "response": [ "creaking van iddli fla lu va" ],
+        "interestingFact": "The song's gibberish lyrics are often mistakenly interpreted as French, possibly because the composer is from France.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write: 'UwU'",
+            "imageName": "uwu.jpg"
+        },
+        "response": [ "uwu" ],
+        "interestingFact": "xd",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "What is this dog's name?",
+            "imageName": "lula.jpg"
+        },
+        "response": [ "lula" ],
+        "interestingFact": "She is literally a dog.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "What is the scientific name of the capybara?",
+            "imageName": "hydrochoerus-hydrochaeris.jpg"
+        },
+        "response": [ "hydrochoerus hydrochaeris" ],
+        "interestingFact": "The capybara is the largest rodent on Earth.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the result of 8 x 8",
+            "imageName": "8x8.png"
+        },
+        "response": [ "64" ],
+        "interestingFact": "8 x 0 = 0\n8 x 1 = 8\n8 x 2 = 16\n8 x 3 = 24\n8 x 4 = 32\n8 x 5 = 40\n8 x 6 = 48\n8 x 7 = 56\n8 x 8 = 64\n8 x 9 = 72\n8 x 10 = 80",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the result of 8 x 7",
+            "imageName": "8x7.png"
+        },
+        "response": [ "56" ],
+        "interestingFact": "8 x 0 = 0\n8 x 1 = 8\n8 x 2 = 16\n8 x 3 = 24\n8 x 4 = 32\n8 x 5 = 40\n8 x 6 = 48\n8 x 7 = 56\n8 x 8 = 64\n8 x 9 = 72\n8 x 10 = 80",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the result of 8 x 6",
+            "imageName": "8x6.png"
+        },
+        "response": [ "48" ],
+        "interestingFact": "8 x 0 = 0\n8 x 1 = 8\n8 x 2 = 16\n8 x 3 = 24\n8 x 4 = 32\n8 x 5 = 40\n8 x 6 = 48\n8 x 7 = 56\n8 x 8 = 64\n8 x 9 = 72\n8 x 10 = 80",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the result of 7 x 6",
+            "imageName": "7x6.png"
+        },
+        "response": [ "42" ],
+        "interestingFact": "7 x 0 = 0\n7 x 1 = 7\n7 x 2 = 14\n7 x 3 = 21\n7 x 4 = 28\n7 x 5 = 35\n7 x 6 = 42\n7 x 7 = 49\n7 x 8 = 56\n7 x 9 = 63\n7 x 10 = 70",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the result of 6 x 6",
+            "imageName": "6x6.png"
+        },
+        "response": [ "36" ],
+        "interestingFact": "6 x 0 = 0\n6 x 1 = 6\n6 x 2 = 12\n6 x 3 = 18\n6 x 4 = 24\n6 x 5 = 30\n6 x 6 = 36\n6 x 7 = 42\n6 x 8 = 48\n6 x 9 = 54\n6 x 10 = 60",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write the result of 8629 x 0",
+            "imageName": "8629x0.png"
+        },
+        "response": [ "0" ],
+        "interestingFact": "Any number multiplied by '0' will always equal '0'.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Write what you see in the following image",
+            "imageName": "captcha.jpg"
+        },
+        "response": [ "smwm" ],
+        "interestingFact": "A Guatemalan participated in the creation of the CAPTCHA system, sold the system to Google, and founded Duolingo.",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "If you confirm this fact, write 'I confirm'",
+            "imageName": "videogame-music-is-better.png"
+        },
+        "response": [ "i confirm", "yes" ],
+        "interestingFact": "Yes, very true. Now listen to this great song: https://open.spotify.com/track/724X0Tdkai2En19Vi1HGUH?si=0a60010a87b64ee8",
+        "tag": "short"
+    },
+    {
+        "task": {
+            "title": "Complete a Duolingo lesson and send an image of the result like the following example",
+            "imageName": "duolingo.png"
+        },
+        "response": [ "attachment" ],
+        "interestingFact": null,
+        "tag": "long"
+    },
+    {
+        "task": {
+            "title": "What is this hottie's name?",
+            "imageName": "pou.gif"
+        },
+        "response": [ "pou" ],
+        "interestingFact": "The game Pou was named that way because it was the creator's nickname among his friends. Also, what a piece of sh...",
+        "tag": "short"
+    }
+]
