@@ -52,11 +52,12 @@ Make sure **Message Content Intent** is enabled in the [ Discord Developer Porta
 
 ## Commands
 
-| Command       | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| `@Bot ping`       | Check if the bot is online. Replies with latency in ms.                     |
-| `@Bot 8ball <q>`  | Magic 8-ball style answers to a question.                                   |
-| `@Bot clean [n]`  | Delete the last `n` messages (default 10, max 100). Requires Manage Messages. |
+| Command               | Description                                                                   |
+|-----------------------|-------------------------------------------------------------------------------|
+| `@Bot help [command]` | Get command information and usage.                                            |
+| `@Bot ping`           | Check if the bot is online. Replies with latency in ms.                       |
+| `@Bot 8ball <q>`      | Magic 8-ball style answers to a question.                                     |
+| `@Bot clean [n]`      | Delete the last `n` messages (default 10, max 100). Requires Manage Messages. |
 
 Aliases: `@Bot eightball`, `@Bot clear`, `@Bot purge`.
 
