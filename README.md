@@ -4,48 +4,65 @@
 
 <div align='center'>
 
-  # Nanobot
+# Nanobot
+
+Simple Discord bot, now powered by Python + discord.py
+
 </div>
 
-# Information
-Started in September 4th, 2023, Nanobot is a simple Discord bot that started development with my interest in making a Discord bot after I learned how to code in JavaScript and Node.js.
+## Information
 
-This repository is being created in October 2026 with plans to improve Nanobot with new functionalities.
+Started in September 4th, 2023, Nanobot is a Discord bot that started development with my interest in making a Discord bot after I learned how to code in JavaScript and Node.js.
 
-# How to use
+This repository was created in October 2026 with a migration to **Python + discord.py**.
 
 ## Requirements
-[ NodeJS ]( https://nodejs.org/ ) and [ Yarn ]( https://yarnpkg.com/ ) are required to start working in this project.  
-Install all Node modules by opening a shell and running the following command inside the project folder:
+
+- Python 3.14+
+- A Discord bot token
+- **Message Content Intent** enabled
+
+Install dependencies:
+
 ```sh
-yarn install
+pip install -r requirements.txt
 ```
 
-## Bot token
-Set yout Discord bot token into botToken filed on config.json file.
+## Environment Variables
 
-## Build the project
-Open a shell and run the command below to build the production version of the project.
+Copy the example file and fill in your values:
+
 ```sh
-yarn build
+cp .env.example .env
 ```
 
-# Functions
-This Discord bot can answer to specific commands.
+Required variables:
 
-## Ping command.
-Used to check if bot is listening to the server channels.
-Answers with "Pong!" and the time between the user's message and the bot's response in miliseconds.
+| Variable         | Description                  |
+|------------------|------------------------------|
+| `DISCORD_TOKEN`  | Your Discord bot token       |
+| `PREFIX`         | Command prefix (default: `nano`) |
 
-## 8ball command.
-Answers any message randomly with 'Yes' or 'No'.
+## How to run
 
-## Clear command.
-Clears the given number of messages in history, default value is 10 and supports a maximum of 100.
+```sh
+python bot.py
+```
 
-# Technologies
-- Programming Language: JavaScript
-- Runtime Environment: [ NodeJS ]( https://github.com/nodejs/node )
-- Package Manager: [ Yarn ]( https://github.com/yarnpkg/berry )
-- Changes Monitor: [ Nodemon ]( https://nodemon.io/ )
-- Discord API Library: [ discord.js ]( https://discord.js.org/ )
+Make sure **Message Content Intent** is enabled in the [ Discord Developer Portal ]( https://discord.com/developers/applications ), this allows the bot to read [ messages content data ]( https://support-dev.discord.com/hc/en-us/articles/6207308062871-What-are-Privileged-Intents ).
+
+## Commands
+
+| Command       | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| `nano ping`       | Check if the bot is online. Replies with latency in ms.                     |
+| `nano 8ball <q>`  | Magic 8-ball style answers to a question.                                   |
+| `nano clean [n]`  | Delete the last `n` messages (default 10, max 100). Requires Manage Messages. |
+
+Aliases: `!eightball`, `!clear`, `!purge`.
+
+## Technologies
+
+- **Language:** Python
+- **Discord library:** [discord.py](https://discordpy.readthedocs.io/)
+- **Config:** python-dotenv
