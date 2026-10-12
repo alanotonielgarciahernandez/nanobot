@@ -17,7 +17,7 @@ class Clean( commands.Cog ):
     async def clean( self, ctx: commands.Context[ commands.Bot ], amount: int = 10 ):
         '''
         Delete recent messages in the channel.
-        Usage: !clean [amount]  (default 10, max 100)
+        Usage: @Bot clean [amount]  (default 10, max 100)
         '''
 
         # Check if the amount is valid, and if not, send a message prompting the user to provide a valid amount.

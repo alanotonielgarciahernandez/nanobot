@@ -39,7 +39,7 @@ class EightBall( commands.Cog ):
 
         # Check if a question was provided, and if not, send a message prompting the user to ask a question.
         if not question:
-            await ctx.send( 'You need to ask a question! Example: `!8ball Will it rain?`' )
+            await ctx.send( 'You need to ask a question! Example: `@Bot 8ball Will it rain?`' )
             return
 
         # Randomly select a response from the list of responses.

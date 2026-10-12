@@ -41,7 +41,6 @@ Required variables:
 | Variable         | Description                  |
 |------------------|------------------------------|
 | `DISCORD_TOKEN`  | Your Discord bot token       |
-| `PREFIX`         | Command prefix (default: `nano`) |
 
 ## How to run
 
@@ -55,14 +54,14 @@ Make sure **Message Content Intent** is enabled in the [ Discord Developer Porta
 
 | Command       | Description                                                                 |
 |---------------|-----------------------------------------------------------------------------|
-| `nano ping`       | Check if the bot is online. Replies with latency in ms.                     |
-| `nano 8ball <q>`  | Magic 8-ball style answers to a question.                                   |
-| `nano clean [n]`  | Delete the last `n` messages (default 10, max 100). Requires Manage Messages. |
+| `@Bot ping`       | Check if the bot is online. Replies with latency in ms.                     |
+| `@Bot 8ball <q>`  | Magic 8-ball style answers to a question.                                   |
+| `@Bot clean [n]`  | Delete the last `n` messages (default 10, max 100). Requires Manage Messages. |
 
-Aliases: `!eightball`, `!clear`, `!purge`.
+Aliases: `@Bot eightball`, `@Bot clear`, `@Bot purge`.
 
 ## Technologies
 
 - **Language:** Python
-- **Discord library:** [discord.py](https://discordpy.readthedocs.io/)
+- **Discord library:** [ discord.py ]( https://discordpy.readthedocs.io )
 - **Config:** python-dotenv
