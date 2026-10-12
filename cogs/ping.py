@@ -9,7 +9,7 @@ class Ping( commands.Cog ):
     def __init__( self, bot: commands.Bot ):
         self.bot = bot
 
-    @commands.command( name='ping' )
+    @commands.command( name='ping', description='Check bot latency.', usage='@Bot ping' )
     async def ping( self, ctx: commands.Context[ commands.Bot ] ):
         '''Check bot latency.'''
 

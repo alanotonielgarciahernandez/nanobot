@@ -11,7 +11,7 @@ class Clean( commands.Cog ):
     def __init__( self, bot: commands.Bot ):
         self.bot = bot
 
-    @commands.command( name='clean', aliases=[ 'clear', 'purge' ] )
+    @commands.command( name='clean', aliases=[ 'clear', 'purge' ], description='Delete recent messages in the channel.', usage='@Bot clean [amount]  (default 10, max 100)' )
     @commands.has_permissions( manage_messages=True )
     @commands.bot_has_permissions( manage_messages=True )
     async def clean( self, ctx: commands.Context[ commands.Bot ], amount: int = 10 ):
@@ -19,7 +19,7 @@ class Clean( commands.Cog ):
         Delete recent messages in the channel.
         Usage: @Bot clean [amount]  (default 10, max 100)
         '''
-
+    
         # Check if the amount is valid, and if not, send a message prompting the user to provide a valid amount.
         if amount < 1:
             await ctx.send( 'Amount must be at least 1.' )

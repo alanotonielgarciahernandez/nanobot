@@ -25,6 +25,7 @@ intents.message_content = True  # needed for commands that read messages content
 
 # Set up the bot with the command prefix and intents.
 bot = commands.Bot(
+    help_command=None,  # Disable the default help command to use a custom one.
     command_prefix=commands.when_mentioned,
     strip_after_prefix=True,
     intents=intents,
@@ -41,6 +42,8 @@ async def on_ready():
 
 # Define the load_cogs function to load all cogs.
 async def load_cogs():
+    await bot.load_extension( 'cogs.errors' )
+    await bot.load_extension( 'cogs.help' )
     await bot.load_extension( 'cogs.ping' )
     await bot.load_extension( 'cogs.clean' )
     await bot.load_extension( 'cogs.eightball' )

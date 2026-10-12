@@ -1,9 +1,11 @@
 # cogs/eightball.py
 # Command to ask the magic 8-ball a question.
 
-# Import discord.py and discord.ext.commands.
-from discord.ext import commands
+# Import random for generating random responses.
 import random
+
+# Import discord.ext.commands.
+from discord.ext import commands
 
 RESPONSES = [
     'It is certain.',
@@ -33,7 +35,7 @@ class EightBall( commands.Cog ):
     def __init__( self, bot: commands.Bot ):
         self.bot = bot
 
-    @commands.command( name='8ball', aliases=[ 'eightball' ] )
+    @commands.command( name='8ball', aliases=[ 'eightball' ], description='Ask the magic 8-ball a question.', usage='@Bot 8ball [question]' )
     async def eight_ball( self, ctx: commands.Context[ commands.Bot ], *, question: str | None = None ):
         '''Ask the magic 8-ball a question.'''
 
